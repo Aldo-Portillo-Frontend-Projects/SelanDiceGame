@@ -14,10 +14,44 @@ body {
 
 }
 
-.first-dice{
+.dice-container{
+    background-image: url(./media/board.png);
+    width: 770px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+.dice-container .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dice-container .column:nth-of-type(odd){
+    justify-content: center;
+}
+
+
+.white-dice{
     color: white;
     padding: 4px;  
     background-color: rgba(0, 0, 0, 0.958);  
+    width: 104px;  
+    height: 104px;  
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-dice{
+    color: rgba(0, 0, 0, 0.958);
+    padding: 4px;  
+    background-color: white;  
     width: 104px;  
     height: 104px;  
     border-radius: 10%;
