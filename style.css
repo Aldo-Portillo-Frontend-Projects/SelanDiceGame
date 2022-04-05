@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', sans-serif, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+    background-color: #00000015;
+
+}
+
+.first-dice{
+    color: white;
+    padding: 4px;  
+    background-color: rgba(0, 0, 0, 0.958);  
+    width: 104px;  
+    height: 104px;  
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Reactive--later
+@media only screen and (max-width: 480px) {
+    header h1 {
+        padding: .5em;
+        font-size: 1em;
+    }
+
+    img {
+        width: 100%;
+        margin: 5em;
+    }
+}
+*/
