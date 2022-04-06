@@ -10,13 +10,15 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #00000015;
+
+}
+
+.game{
     background-image: url(./media/board.png);
     background-repeat: no-repeat;
-    background-size: 80% 80%;
-    margin-top: 30px;
-    padding-right: 250px;
+    background-size: 100% 100%;
+    padding-right: 50px;
     margin-bottom: 120px;
-
 }
 
 .dice-container{
@@ -24,6 +26,11 @@ body {
     height: 600px;
     display: flex;
     justify-content: space-between;
+
+    margin-top: 50px;
+    margin-left: 85px;
+    margin-bottom: 50px;
+    margin-right: 40px;
 }
 
 .dice-container .column{
