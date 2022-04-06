@@ -9,20 +9,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 8em;
     background-color: #00000015;
+    background-image: url(./media/board.png);
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    margin-top: 30px;
+    padding-right: 250px;
+    margin-bottom: 120px;
 
 }
 
 .dice-container{
-    background-image: url(./media/board.png);
-    width: 770px;
-    height: 700px;
+    width: 800px;
+    height: 600px;
     display: flex;
     justify-content: space-between;
-
-    
-
 }
 
 .dice-container .column{
