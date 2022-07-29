@@ -1,83 +1,21 @@
-* {
-    box-sizing: border-box;
-    font-size: 1.2rem;
-    font-family: 'Roboto Mono', sans-serif, serif;
-}
-
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: #00000015;
-
 }
 
-.game{
-    background-image: url(./media/board.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-right: 50px;
-    margin-bottom: 120px;
+.responsive {
+    width: 100%;
+    height: auto;
 }
 
 .dice-container{
-    width: 800px;
-    height: 600px;
-    display: flex;
-    justify-content: space-between;
-
-    margin-top: 50px;
-    margin-left: 85px;
-    margin-bottom: 50px;
-    margin-right: 40px;
+    position: relative;
 }
 
-.dice-container .column{
+.dice{
+    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
-.dice-container .column:nth-of-type(odd){
-    justify-content: center;
-}
-
-
-.white-dice{
-    color: white;
-    padding: 4px;  
-    background-color: rgba(0, 0, 0, 0.958);  
-    width: 104px;  
-    height: 104px;  
-    border-radius: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.black-dice{
-    color: rgba(0, 0, 0, 0.958);
-    padding: 4px;  
-    background-color: white;  
-    width: 104px;  
-    height: 104px;  
-    border-radius: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*Reactive--later
-@media only screen and (max-width: 480px) {
-    header h1 {
-        padding: .5em;
-        font-size: 1em;
-    }
-
-    img {
-        width: 100%;
-        margin: 5em;
-    }
-}
-*/

@@ -1,4 +1,4 @@
-const button = document.querySelector("#newGame");
+/*const button = document.querySelector("#newGame");
 const diceValue1 = document.querySelector("#d1");
 const diceValue2 = document.querySelector("#d2");
 const diceValue3 = document.querySelector("#d3");
@@ -22,4 +22,4 @@ let rollAllDice = () => {
   diceValue7.innerHTML = roll()*10;
 }
 
-button.onclick = rollAllDice;
+button.onclick = rollAllDice;*/
