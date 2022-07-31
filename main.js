@@ -1,5 +1,5 @@
-/*const button = document.querySelector("#newGame");
-const diceValue1 = document.querySelector("#d1");
+
+/*const diceValue1 = document.querySelector("#d1");
 const diceValue2 = document.querySelector("#d2");
 const diceValue3 = document.querySelector("#d3");
 const diceValue4 = document.querySelector("#d4");
@@ -8,9 +8,7 @@ const diceValue6 = document.querySelector("#b1");
 const diceValue7 = document.querySelector("#b2");
 
 
-let roll = () => {
-    return Math.floor(Math.random()*6)+1;
-};
+
 
 let rollAllDice = () => {
   diceValue1.innerHTML = roll();
@@ -22,4 +20,19 @@ let rollAllDice = () => {
   diceValue7.innerHTML = roll()*10;
 }
 
-button.onclick = rollAllDice;*/
+button.onclick = rollAllDice;
+
+*/
+
+const button = document.querySelector("button");
+const die = document.querySelectorAll(".dice");
+
+let roll = () => {
+  return Math.floor(Math.random()*6)+1;
+};
+
+button.addEventListener('click', () =>{
+  die.forEach((dice) => {
+    dice.textContent = roll();
+  })
+})
