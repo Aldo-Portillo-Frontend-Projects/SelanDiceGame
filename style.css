@@ -2,20 +2,29 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.responsive {
-    width: 100%;
-    height: auto;
+    
 }
 
 .dice-container{
-    position: relative;
+    background-image: url("/media/board.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    height: 400px;
+    width: 400px;
+    
 }
 
-.dice{
-    position: absolute;
+.row-1, .row-2, .row-3{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    gap: 120px;
+    padding: 50px;
 }
 
+
+
+.black{
+    color: white;
+}
