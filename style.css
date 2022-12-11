@@ -7,7 +7,7 @@ body{
 }
 
 .background-image{
-    background-image: url('/media/board.png');
+    background-image: url('./media/board.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 44vw;
